@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Left Side Navigation Menu -->
+    <nav class="side-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to My Website</h1>
+        <div class="intro-content">
+            <img src="headshot.jpg" alt="Your Headshot" class="headshot">
+            <div class="intro-text">
+                <p>I am a computer science student with a passion for coding, problem-solving, and technology. This website showcases my skills, resume, and portfolio.</p>
+
+                <!-- LinkedIn Button -->
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+                    <img src="LI-Logo.png" alt="LinkedIn" class="linkedin-logo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h1>My Resume</h1>
+        <h2>Education</h2>
+        <p>BS in Computer Science, University XYZ (Expected Graduation: 2025)</p>
+        
+        <h2>Experience</h2>
+        <p>Intern, ABC Tech Company (2024)</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database Management: SQL, MongoDB</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <h1>My Projects</h1>
+        <div class="project">
+            <h2>Project 1: Web App</h2>
+            <p>Description of the project goes here. Explain technologies used and the purpose of the project.</p>
+        </div>
+        <div class="project">
+            <h2>Project 2: Data Analysis Tool</h2>
+            <p>Description of the project goes here. Mention tools and libraries used like Python and Pandas.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h1>Contact Me</h1>
+
+        <!-- Contact Form -->
+        <form action="mailto:mg.beastrom@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Resume Download -->
+        <div class="resume-download">
+            <h2>Download My Resume</h2>
+            <a href="path-to-your-resume.pdf" download class="btn">Download Resume</a>
+        </div>
+
+        <!-- LinkedIn Link -->
+        <div class="linkedin-link">
+            <h2>Connect with Me</h2>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+                <img src="LI-Logo.png" alt="LinkedIn" class="linkedin-logo">
+            </a>
+        </div>
+    </section>
+
+    
+
+</body>
+<footer>
+        <p>&copy; 2024 MaryGrace Beastrom. All rights reserved.</p>
+    </footer>
+</html>
