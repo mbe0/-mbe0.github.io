@@ -1,9 +1,9 @@
 /* General Styles */
 body {
-        font-family: Arial, sans-serif;
+        font-family: "Garamond", serif;
         line-height: 1.6;
-        background-color: #FDFFFC;
-        color: #333;
+        background-color: #F1F2EE;
+        color: #0E0A1C;
         margin: 0;
     }
 
@@ -19,11 +19,11 @@ body {
     }
     
     .section {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #F1F2EE;
     }
     
     h1 {
-        color: #333;
+        color: #0E0A1C;
     }
     
     p, ul {
@@ -37,7 +37,7 @@ body {
         left: 0;
         width: 200px;
         height: 100%;
-        background-color: #503B31;
+        background-color: #435058;
         padding-top: 20px;
     }
     
@@ -51,7 +51,7 @@ body {
     }
     
     .side-menu ul li a {
-        color: #fff;
+        color: #F1F2EE;
         text-decoration: none;
         font-size: 1.2rem;
         padding: 10px 20px;
@@ -59,7 +59,7 @@ body {
     }
     
     .side-menu ul li a:hover {
-        background-color: #A3C3D9;
+        background-color: #0E0A1C;
     }
     
     /* Main content moves to the right to make space for the side menu */
@@ -82,12 +82,12 @@ body {
         border: 5px solid #333;
     }
     
-    .linkedin-logo {
+    .social-logo {
         width: 40px;
         margin-top: 10px;
     }
     
-    .linkedin-logo:hover {
+    .social-logo:hover {
         transform: scale(1.1);
     }
     
@@ -101,16 +101,17 @@ body {
     }
     
     form button {
-        background-color: #007BFF;
-        color: white;
+        background-color: #BFB7B6;
+        color: #0E0A1C;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
     }
     
-    form button:hover {
-        background-color: #0056b3;
+    form button:hover, .linkedin-link a:hover {
+        background-color: #0E0A1C;
+        color: #BFB7B6;
     }
     
     .resume-download, .linkedin-link {
@@ -118,14 +119,15 @@ body {
     }
     
     .resume-download a.btn, .linkedin-link a {
-        background-color: #28a745;
-        color: white;
+        background-color: #BFB7B6;
+        color: #0E0A1C;
         padding: 10px 15px;
         text-decoration: none;
         border-radius: 5px;
     }
     
     .resume-download a.btn:hover, .linkedin-link a:hover {
-        background-color: #218838;
+        background-color: #0E0A1C;
+        color: #BFB7B6;
     }
     
